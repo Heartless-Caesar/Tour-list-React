@@ -1,0 +1,115 @@
+body {
+  background-image: url(./Images/0134.jpg);
+  color: white;
+}
+
+.tour-div {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgba(59,62,68,0.5);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tour-price {
+  display: inline;
+  padding-top: 50px;
+}
+
+.tour-bar {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.list-item {
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 45px;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.list-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.remove-button {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 5px;
+  margin-left: 350px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  color: inherit;
+}
+
+.remove-all-button{
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 15px;
+  border-radius: 5px;
+
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left-bar-item{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 10px;
+  align-content: flex-end;
+}
+
+.search-div{
+  display: flex;
+  align-self: center;
+  width: 300px;
+  height: 71px;
+  border: 2px solid white;
+  border-radius: 5px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search-bar-label{
+  margin-left: 10px;
+  font-size:1.09em;
+}
+.search-bar{
+  border-radius: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top:5px;
+  font-size:1em;
+  background-color:rgba(255, 255, 255, 0.1);
+  outline: none;
+  color: inherit;
+}
+
+.components-div{
+  display: flex;
+  height: 500px;
+  width: 1250px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
